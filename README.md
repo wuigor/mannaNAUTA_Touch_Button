@@ -92,9 +92,9 @@ touchRead(uint8_t pin);
 ```
 
 * Function to set the interrupt
--  uint8_t pin             -> PAD TOUCH (GPIO).
--  void (*userFunc)(void)  -> Function to be called when the interrupt is generated.
--  touch_value_t threshold -> Limit set to generate the interaction.
+uint8_t pin             -> PAD TOUCH (GPIO).</br>
+void (*userFunc)(void)  -> Function to be called when the interrupt is generated.</br>
+touch_value_t threshold -> Limit set to generate the interaction.</br>
 ```C
 touchAttachInterrupt(uint8_t pin, void (*userFunc)(void), touch_value_t threshold);
 ```
