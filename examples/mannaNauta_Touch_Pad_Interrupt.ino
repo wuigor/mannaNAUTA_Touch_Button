@@ -29,6 +29,8 @@ void goHandRight() {
 void setup() {
 
   Serial.begin(115200);
+  Serial.println("mannaNAUTA Touch Button Interrupt");
+
   touchAttachInterrupt(T7, goHandLeft, threshold);
   touchAttachInterrupt(T6, goHandRight, threshold);
   
