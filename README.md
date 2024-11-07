@@ -17,7 +17,7 @@ https://github.com/espressif/esp-idf/tree/master/examples/peripherals/touch_sens
 ```C
 /*
 *   T7 = GPIO7 = Left hand
-*   T6 = GPIO6 = Left right
+*   T6 = GPIO6 = Right hand
 */
 
 void setup() {
@@ -42,7 +42,7 @@ void loop() {
 ```C
 /*
 *   T7 = GPIO7 = Left hand
-*   T6 = GPIO6 = Left right
+*   T6 = GPIO6 = Right hand
 *   Default Threshold = 40
 */
 
